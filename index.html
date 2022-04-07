@@ -2,48 +2,102 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Desarrollador/diseñador web" />
-    <meta name="keywords" content="HTML, CSS, JavaScript, PHP, Git, Web, Diseño, Blockchain, eCommerce" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Desarrollador web">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Portafolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="copyright" content="Alexander Reyes" />
-    <meta name="author" content="Alexander Reyes" />
-    <meta name="robots" content="index, follow" />
+    <meta name="copyright" content="Alexander Reyes">
+    <meta name="author" content="Alexander Reyes">
+    <meta name="robots" content="index, follow">
     <title>Alexander Reyes (AARH777)</title>
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <main>
+    <!--- Navbar place -->
+    <main role="main">
         <header>
-            <nav>
-                <ul>
-                    <li><a href="Inicio">Inicio</a></li>
-                    <li><a href="https://www.aarh777.tech"></a>Blog</li>
-                </ul>
-            </nav>
-            <picture>
-                <source srcset="./img/profile-photo.jpg" media="(min-width: 768px)" />
-                <source srcset="./img/profile-photo.jpg" media="(min-width: 320px)" />
-                <img src="./img/profile-photo.jpg" alt="Logo" />
-                <figcaption>Desarrollador web</figcaption></picture>
+            <figure>
+                <picture>
+                    <source srcset="./img/profile-photo.jpg" media="(min-width: 768px)" />
+                    <source srcset="./img/profile-photo.jpg" media="(min-width: 320px)" />
+                    <img src="./img/profile-photo.jpg" alt="Profile pic" />
+                </picture>
+                <h1>Desarrollador web</h1>
+                <hr>
+                <figcaption>Alexander Reyes</figcaption>
+                <span>AARH777</span>
+            </figure>
         </header>
-        <section><!--Tarjeta de presentación (Hero) Tech skills --></section>
-        <section><!-- Proyectos en forma de galería, arriba los de desarrollo, abajo los de diseño --></section>
-        <section>Redes:
-            <ul>
-                <li><a href="https://www.linkedin.com/in/AARH777">LinkedIn</a></li>
-                <li><a href="https://www.github.com/AARH777">GitHub</a></li>
-                <li><a href="https://www.behance.net/AARH777">BeHance</a></li>
-                <li><a href="https://www.twitter.com/AARH777">Twitter</a></li>
-                <li><a href="https://www.dribbble.com/AARH777">Dribbble</a></li>
-                <li><a href="https://www.buymeacoffee.com/AARH777">Buymeacoffee</a></li>
-            </ul>
+        <section class="whatIDo">
+            <article>
+                <h2>Tecnologías</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Git</li>
+                    <li>Figma</li>
+                    <li>WordPress</li>
+                    <li>WooCommerce</li>
+                    <li>React.js</li>
+                </ul>
+            </article>
+            <article>
+                <h2>Intereses</h2>
+                <ul>
+                    <li>Arte, en especial <span>3D</span></li>
+                    <li>Finanzas</li>
+                    <li>Blockchain</li>
+                    <li>eCommerce</li>
+                </ul>
+            </article>
+            <article>
+                <h2>Pasatiempos</h2>
+                <ul>
+                    <li>Lectura</li>
+                    <li>Ping Pong</li>
+                    <li>Permacultura</li>
+                    <li>Escuchar música</li>
+                </ul>
+            </article>
         </section>
-        <footer>
-            Creditos:
-            Uicons por <a href="https://www.flaticon.com/uicons">Flaticon</a>
-            Fotos por <a href="https://www.unsplash.com/">Unsplash</a>
-        </footer>
+        <article class="findme">
+            <h2>Encuentrame</h2>
+            <button><a href="https://aarh777.tech">Blog</a></button>
+            <button><a href="https://www.linkedin.com/in/AARH777">LinkedIn</a></button>
+            <button><a href="https://www.github.com/AARH777">GitHub</a></button>
+            <button><a href="https://www.twitter.com/AARH777">Twitter</a></button>
+            <button><a href="https://www.behance.net/AARH777">BeHance</a></button>
+            <button><a href="https://www.dribbble.com/AARH777">Dribbble</a></button>
+            <button><a href="https://www.buymeacoffee.com/AARH777">Buymeacoffee</a></button>
+        </article>
+        <section class="projects"><!-- Proyectos en forma de galería, arriba los de desarrollo, abajo los de diseño --></section>
+        <section class="quotes">
+            <h2>Citas</h2>
+            <article>
+                <blockquote>
+                    Compra la verdad y no la vendas. <cite>Proverbios 23: 23</cite>
+                </blockquote>
+                <!-- <blockquote>Buy the truth and don't sell it <cite>Proverbs 23: 23</cite></blockquote> -->
+            </article>
+            <article>
+                <blockquote>
+                    El éxito no es definitivo; el fracaso no es fatal: lo que cuenta es el coraje de continuar. <cite>Winston Churchill</cite>
+                </blockquote>
+                <!-- <blockquote>Success isn't final; failure isn't fatal: it's the courage to continue that counts <cite>Winston Churchill</cite></blockquote> -->
+            </article>
+            <article>
+                <blockquote>
+                    Hay una fuerza motriz más poderosa que el vapor, la electricidad y la energía atómica: la voluntad. <cite>Albert Einstein</cite>
+                </blockquote>
+                <!-- <blockquote>There is a driving force more powerful than steam, electricity and atomic energy: the will <cite>Albert Einstein</cite></blockquote> -->
+            </article>
+        </section>
     </main>
+    <footer>
+        <!-- Creditos:
+        Uicons por <a href="https://www.flaticon.com/uicons">Flaticon</a>
+        Fotos por <a href="https://www.unsplash.com/">Unsplash</a> -->
+    </footer>
 </body>
 </html>

@@ -1,25 +1,48 @@
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+}
+
+:root {
+    --blue-sapphire: #22577A;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-Regular.ttf');
+    font-size: 'Quicksand';
+    src: url('../fonts/Quicksand-Regular.ttf');
+    font-family: 'Fira Code';
+    src: url('../fonts/FiraCode-Regular.ttf');
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 6.25%;
 }
 
 body {
-    font-size: 1.6rem;
+    font-size: 16rem;
 }
 
-p {
-    font-family: 'Nunito';
+p, span, figcaption, li, blockquote, a {
+    font-family: 'Nunito', sans-serif;
 }
 
-h1 {
-    font-family: 'Quicksand';
+h1, h2, cite {
+    font-family: 'Quicksand', sans-serif;
 }
 
 code {
-    font-family: 'Fira Code';
+    font-family: 'Fira Code', monospace;
+}
+
+input {
+    accent-color: var(--blue-sapphire);
+}
+
+li::maker {
+    color: var(--blue-sapphire);
+}
+
+picture img {
+    clip-path: circle(50% at 50% 50%);
 }
